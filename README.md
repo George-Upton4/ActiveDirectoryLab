@@ -1,7 +1,5 @@
 <h1>ActiveDirectoryLab</h1>
 
- ### [YouTube Demonstration]()
-
 <h2>Description</h2>
 Implemented and managed an at-home lab environment simulating a mini corporate network. Set up a Microsoft Server virtual machine as the domain controller, creating a robust Active Directory infrastructure. Leveraged PowerShell scripting to automate the generation of 1000 users, ensuring efficient user management.
 <br />
@@ -17,36 +15,29 @@ Implemented and managed an at-home lab environment simulating a mini corporate n
 - <b>Windows 10</b>
 - <b>Server 2019</b>
 
-<h2>Program walk-through:</h2>
+<h2>Lab walk-through:</h2>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"> 
+Network Diagram: <br/>
+<img src="https://github.com/George-Upton4/ActiveDirectoryLab/blob/main/media/Network_Diagram.drawio.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Creation of 1k new users: <br/>
+<img src="https://github.com/George-Upton4/ActiveDirectoryLab/blob/main/media/Script%20for%20creating%20users.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+List of new users created: <br />
+<img src="https://github.com/George-Upton4/ActiveDirectoryLab/blob/main/media/Proof%20of%20new%20users.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Signing into a user from a client machine: <br />
+<img src="https://github.com/George-Upton4/ActiveDirectoryLab/blob/main/media/Proof%20of%20client%20on%20network.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Proof of client connection in active directory: <br />
+<img src="https://github.com/George-Upton4/ActiveDirectoryLab/blob/main/media/Proof%20of%20lease.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <!--
  ```diff
